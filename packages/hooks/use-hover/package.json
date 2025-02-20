@@ -1,7 +1,7 @@
 {
   "name": "@raddix/use-hover",
   "description": "A hook that detects if given element is hovered.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "src/index.ts",
   "author": "Moises Machuca Valverde <rolan.machuca@gmail.com> (https://www.moismachuca.com)",

@@ -1,5 +1,12 @@
 # @raddix/switch
 
+## 1.1.1
+
+### Patch Changes
+
+- Updated dependencies [75aa835]
+  - @raddix/use-keyboard@1.3.0
+
 ## 1.1.0
 
 ### Minor Changes
