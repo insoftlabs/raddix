@@ -25,6 +25,10 @@
           "path": "/hooks/use-fetch"
         },
         {
+          "title": "useHover",
+          "path": "/hooks/use-hover"
+        },
+        {
           "title": "useMediaQuery",
           "path": "/hooks/use-media-query"
         },

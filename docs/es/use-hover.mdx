@@ -1,0 +1,46 @@
+---
+title: useHover
+description: Detecta si se pasa el cursor sobre un elemento determinado.
+---
+
+## Instalación
+
+<Snippet pkg text='@raddix/use-hover' />
+
+## Uso
+
+```tsx
+import { useRef } from 'react';
+import { useHover } from '@raddix/use-hover';
+
+export const App = () => {
+  const boxRef = useRef<HTMLDivElement>(null);
+  const isHovered = useHover(divRef);
+
+  return (
+    <div ref={boxRef}>
+      {isHovered ? '😁' : '☹️'}
+    </div>
+  );
+};
+```
+
+## API
+
+### Parámetros
+
+<ApiTable
+  head={{
+    name: 'Nombre',
+    description: 'Descripción',
+    type: 'Tipo'
+  }}
+  data={[
+    {
+      name: 'ref',
+      description: 'Elemento DOM al que se hace referencia.',
+      required: 'Yes',
+      type: 'RefObject'
+    },
+  ]}
+/>

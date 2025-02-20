@@ -1,0 +1,41 @@
+---
+title: useHover
+description: Detects if given element is hovered.
+---
+
+## Instalación
+
+<Snippet pkg text='@raddix/use-hover' />
+
+## Uso
+
+```tsx
+import { useRef } from 'react';
+import { useHover } from '@raddix/use-hover';
+
+export const App = () => {
+  const boxRef = useRef<HTMLDivElement>(null);
+  const isHovered = useHover(divRef);
+
+  return (
+    <div ref={boxRef}>
+      {isHovered ? '😁' : '☹️'}
+    </div>
+  );
+};
+```
+
+## API
+
+### Parameters
+
+<ApiTable
+  data={[
+    {
+      name: 'ref',
+      description: 'DOM element being referenced.',
+      required: 'Yes',
+      type: 'RefObject'
+    },
+  ]}
+/>
