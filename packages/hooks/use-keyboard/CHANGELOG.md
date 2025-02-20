@@ -1,5 +1,11 @@
 # @raddix/use-keyboard
 
+## 1.3.0
+
+### Minor Changes
+
+- 75aa835: Remove typescript types for keyboard
+
 ## 1.2.2
 
 ### Patch Changes
