@@ -1,10 +1,10 @@
 {
   "name": "@raddix/use-hover",
-  "description": "A hook that listens for hover events on an element.",
-  "version": "1.0.0",
+  "description": "A hook that detects if given element is hovered.",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "src/index.ts",
-  "author": "Moises Machuca Valverde <rolan.machuca@gmail.com> (https://www.moisesmachuca.com)",
+  "author": "Moises Machuca Valverde <rolan.machuca@gmail.com> (https://www.moismachuca.com)",
   "homepage": "https://raddix.dev/hooks/use-hover",
   "repository": {
     "type": "git",
